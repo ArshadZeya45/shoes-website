@@ -44,8 +44,8 @@ function Card({product,index}){
                 <div className="px-4 py-5 text-black">
                     <p>{product.name}</p>
                     <p>₹{product.price}</p>
-                    {/* <button className= {`${product.isAdded ? "bg-teal-700" :"bg-black"} text-white font-semibold py-2 w-full mt-3`} onClick={handleCart}>{product.isAdded ? "Added" :"Add to Cart"}</button> */}
-                    <ShinyText text="Just some shiny text!" disabled={false} speed={3} className='custom-class' />
+                    { <button className= {`${product.isAdded ? "bg-teal-700" :"bg-black"} text-white font-semibold py-2 w-full mt-3`} onClick={handleCart}>{product.isAdded ? "Added" :"Add to Cart"}</button>}
+                    
 
                 </div>
 
